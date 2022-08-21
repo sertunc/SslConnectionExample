@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SslConsoleServer": {
+      "commandName": "Project",
+      "commandLineArgs": "SslServer.cer"
+    }
+  }
+}
