@@ -14,7 +14,7 @@ namespace SslConsoleServer
         {
             try
             {
-                var serverCertificate = new X509Certificate2("vera-tls-certificate.pfx", "1234");
+                var serverCertificate = new X509Certificate2("certificate.pfx", "1234");
 
                 byte[] clientCertBytes = certificate.GetRawCertData();
                 byte[] serverCertBytes = serverCertificate.GetRawCertData();
