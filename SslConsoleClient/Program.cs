@@ -9,7 +9,7 @@ namespace SslConsoleClient
     {
         static void Main(string[] args)
         {
-            var certificate = new X509Certificate2("etb-tls-certificate-android.pfx", "1234");
+            var certificate = new X509Certificate2("certificate.pfx", "1234");
             var certificateCollection = new X509CertificateCollection();
             certificateCollection.Add(certificate);
 
